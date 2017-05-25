@@ -1,0 +1,31 @@
+# top level stuff you probably don't need to touch
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 3000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: http://jakinbohun.github.io/
+baseurl: /sustain/
+title: Jeremiah Akinbohun
+author: Jeremiah Akinbohun
+description: Personal blog and resume
+avatar: profile.png
+email: jeremiah.akinbohun@gmail.com
+github: jakinbohun # username
+twitter: j_akinbohun
+linkedin: jakinbohun
+stackoverflow: users/7907960/jeremiah-akinbohun   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus 
+#disqus: username
+google_analytics: UA-98714738-1
+
+
+# needed for travis-ci build
+exclude: [vendor]
